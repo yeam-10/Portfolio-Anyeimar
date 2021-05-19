@@ -12,7 +12,7 @@
     {
 
         skill: 'Python',
-        porcentage: 40,
+        porcentage: 30,
 
     },
 

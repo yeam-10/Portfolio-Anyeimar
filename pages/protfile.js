@@ -25,14 +25,14 @@
 
     {
 
-        skill: 'html',
+        skill: 'Html',
         porcentage: 60,
        
        },
 
        {
 
-        skill: 'css',
+        skill: 'Css',
         porcentage: 60,
        
        },

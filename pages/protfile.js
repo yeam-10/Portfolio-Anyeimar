@@ -106,3 +106,49 @@ export const experience = [{
 
 }
 ]
+
+export const proyects = [{
+
+ name: " Template Mundo Game RD  ",
+ description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
+ image:"gamedigevo.png"
+
+},
+
+{
+name: "Juego encuentrame elaborado Javascript",
+description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
+image:"juegojs.png"
+
+},
+{
+    name: " Modulos de Odoo 11-14",
+    description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
+    image:"odoo11.png"
+    
+    },
+
+ {
+        name: "Plugin Wordpress",
+        description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
+        image:"plugingdigevo.png"
+        
+        },
+
+
+        {
+            name: "Sistema inventario Bodegon Hatillo VIP",
+            description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
+            image:"registro.jpg"
+            
+            },
+
+        
+            {
+                name: "Sistema de Asistencia",
+                description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
+                image:"form1.jpg"
+                
+                },
+
+]

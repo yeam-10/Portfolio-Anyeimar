@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
+import link from 'next/link'
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -12,6 +13,8 @@ class MyDocument extends Document {
        <Head>
     <title>My Portfolio</title>
     <meta name="description" content="Anyeimar Requena" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.css "/>
+  
       </Head>  
         <body>
           <Main />

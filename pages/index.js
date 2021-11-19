@@ -1,11 +1,12 @@
 import Layout from '../components/layout'
-import { skills, experience } from './protfile';
+import { skills, experience, proyects } from './protfile';
 import Link from 'next/link'
 
 console.log(experience)
 const Index = () => (
 
-    <Layout >
+    <Layout>
+      
 
     { /**Header */ }
 
@@ -89,11 +90,48 @@ const Index = () => (
  
       {  /**Section Portfolio */}
 
-      <div className="row py-2">
+      <section>
+      <div className="row">
+        <div className="col-md-12">
+          <div className="card card-body bg-dark">
+            <div className="row">
+              <div className="col-md-12 my-2">
+                <h1 className="text-center text-light">Portfolio</h1>
+              </div>
+              {proyects.map(({ name, description, image }, index) => (
+                <div className="col-md-4 p-2" key={index}>
+                  <div className="card h-100">
+                    <div className="overflow">
+                      <img
+                        src={`/${image}`}
+                        alt=""
+                        className="card-img-top"
+                      />
+                    </div>
+                    <div className="card-body">
+                      <h3>{name}</h3>
+                      <p>{description}</p>
+                      <a href="#!">Know More</a>
+                    </div>
+                  </div>
+                </div>
+              ))}
 
-
-          
+              <div className="col-md-12 mt-4">
+                <div className="text-center">
+                  <Link href="/portfolio">
+                    <a className="btn btn-outline-light">More Projects</a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+    </section>
+
+
+    
 
     </Layout>
 

@@ -10,7 +10,7 @@ const Github = ({user,statusCode}) => {
 
     return (
 
-        <Layaout>
+        <Layaout footer={false} dark >
 
             <div className="row">
                 <div className="col-md-4 offset-md-4">

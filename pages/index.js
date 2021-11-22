@@ -1,5 +1,5 @@
 import Layout from '../components/layout'
-import { skills, experience, proyects } from './protfile';
+import { skills, experience, proyects } from '../protfile';
 import Link from 'next/link'
 
 console.log(experience)

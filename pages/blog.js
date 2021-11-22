@@ -1,5 +1,5 @@
 import Layout from '../components/layout'
-import {posts} from './protfile'
+import {posts} from '../protfile'
 import Link from 'next/dist/client/link';
 
 

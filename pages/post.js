@@ -1,7 +1,7 @@
 import Layout from "../components/layout";
 import { useRouter } from "next/router";
 
-import { posts } from "./protfile";
+import { posts } from "../protfile";
 
 const Post = () => {
   const router = useRouter();

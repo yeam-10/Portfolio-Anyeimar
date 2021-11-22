@@ -1,6 +1,6 @@
-import Layout from '../components/layout'
-import {posts} from '../protfile'
-import Link from 'next/dist/client/link';
+import Link from "next/link";
+import Layout from "../components/layout";
+import { posts } from "../protfile";
 
 
 const PostCard = ({ post }) => (

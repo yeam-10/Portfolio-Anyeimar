@@ -2,12 +2,16 @@ import Layout from "../components/layout";
 import { useRouter } from "next/router";
 import { posts } from "../protfile";
 
-const Post = () => {
+const Poste = () => {
   const router = useRouter();
 
   const currentPost = posts.filter(
     (post) => post.title === router.query.title
   )[0];
+
+  if (router.isFallback) {
+    return <div>Loading...</div>
+  }
 
   return (
     <Layout title={router.query.title} footer={false}>
@@ -24,4 +28,4 @@ const Post = () => {
   );
 };
 
-export default Post;
+export default Poste;

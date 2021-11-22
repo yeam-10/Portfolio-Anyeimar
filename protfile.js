@@ -157,7 +157,7 @@ export const posts = [{
 
     title : "React",
     content : "Lorem ",
-    imgURL: "http://intecsv.com/wp-content/uploads/2020/03/react-galaxia.png"
+    imageURL: "react-galaxia.png"
 
 },
 
@@ -165,7 +165,7 @@ export const posts = [{
 
     title : "Angular",
     content : "Lorem ",
-    imgURL: "http://intecsv.com/wp-content/uploads/2020/03/react-galaxia.png"
+    imageURL: "react-galaxia.png"
 
 },
 
@@ -173,7 +173,7 @@ export const posts = [{
 
     title : "Python",
     content : "Lorem ",
-    imgURL: "http://intecsv.com/wp-content/uploads/2020/03/react-galaxia.png"
+    imageURL: "react-galaxia.png"
 
 },
 

@@ -1,6 +1,5 @@
 import Layout from "../components/layout";
 import { useRouter } from "next/router";
-
 import { posts } from "../protfile";
 
 const Post = () => {
@@ -14,7 +13,7 @@ const Post = () => {
     <Layout title={router.query.title} footer={false}>
       <div className="text-center">
         <img
-          src={currentPost.imgURL}
+          src={currentPost.imageURL}
           alt=""
           style={{ width: "50%" }}
           className="img-fluid"

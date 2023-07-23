@@ -18,8 +18,8 @@ const Index = () => (
                       <img src="Anye-Requena.png" alt="" className="img-fluid" width="250" height="300"/>
                   </div>
                   <div className="col-md-8">
-                      <h1>Anyeimar Requena</h1>
-                      <h3>Junior Developer</h3>
+                      <h1>Anyeimar Requena Requena</h1>
+                      <h3>Fullstack Developer</h3>
                       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia doloremque beatae ipsa nesciunt corrupti, unde assumenda! Quas blanditiis quos sit enim asperiores nesciunt sed nulla qui architecto! Suscipit, magnam amet.</p>
                       <a href="/hireme">Hire Me</a>
                   </div>
